@@ -24,6 +24,14 @@
      <version>1.3.2</version>
  </dependency>
 ```  
+<font color='red'>注意，项目里有个gson包，如果下载不下来可以引用下边的这个</font>
+```
+ <dependency>
+    <groupId>com.google.code.gson</groupId>
+    <artifactId>gson</artifactId>
+    <version>2.8.0</version>
+</dependency>
+```
 #### （2）主从项目里配置`application.properties` 文件      
 
 &emsp;&emsp;`master` 项目配置如下： 
